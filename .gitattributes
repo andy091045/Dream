@@ -1,0 +1,40 @@
+# 將所有文字檔統一為 LF 換行符號，避免跨平台換行差異
+* text=auto eol=lf
+
+# Unity 常見的文字格式
+*.cs       text
+*.shader   text
+*.cginc    text
+*.compute  text
+*.txt      text
+*.json     text
+*.asmdef   text
+*.unity    text
+*.prefab   text
+*.mat      text
+*.meta     text
+*.asset    text
+*.uxml     text
+*.uss      text
+
+# YAML 檔案（Unity 內部設定也很多是 YAML）
+*.yaml     text
+*.yml      text
+
+# 禁用二進位檔案的換行轉換
+*.png      binary
+*.jpg      binary
+*.jpeg     binary
+*.psd      binary
+*.tga      binary
+*.fbx      binary
+*.obj      binary
+*.mp3      binary
+*.ogg      binary
+*.wav      binary
+*.mp4      binary
+*.mov      binary
+*.dll      binary
+*.exe      binary
+*.zip      binary
+*.unitypackage binary
