@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 9170679005148425442}
   - component: {fileID: 498181143491243146}
   - component: {fileID: 1321117629833397736}
-  - component: {fileID: -5489019279565364161}
+  - component: {fileID: 1392857873354973207}
   m_Layer: 0
   m_Name: PlayerPrefab
   m_TagString: Untagged
@@ -141,7 +141,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad4ee072f8a4f25419007df86e22109d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &-5489019279565364161
+--- !u!114 &1392857873354973207
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -150,7 +150,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7748226556373220934}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e96cb6065543e43c4a752faaa1468eb1, type: 3}
+  m_Script: {fileID: 11500000, guid: eee9ad2a8cb71ed4c848d9e85f1711a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   UseUnreliableDeltas: 0
@@ -160,9 +160,9 @@ MonoBehaviour:
   SyncRotAngleX: 1
   SyncRotAngleY: 1
   SyncRotAngleZ: 1
-  SyncScaleX: 1
-  SyncScaleY: 1
-  SyncScaleZ: 1
+  SyncScaleX: 0
+  SyncScaleY: 0
+  SyncScaleZ: 0
   PositionThreshold: 0.001
   RotAngleThreshold: 0.01
   ScaleThreshold: 0.01
